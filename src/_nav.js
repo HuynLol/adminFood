@@ -54,24 +54,24 @@ const _nav = [
     items: [
       {
         component: CNavItem,
-        name: 'Quản lý vé xe',
+        name: 'Quản lý món ăn',
         to: '/base/accordion',
       },
       {
         component: CNavItem,
-        name: 'Quản lý tuyến đi',
+        name: 'Quản lý người dùng',
         to: '/base/tables',
       },
       {
         component: CNavItem,
-        name: 'Quản lý hành khách',
+        name: 'Món ăn trong ngày',
         to: '/base/cards',
       },
-      // {
-      //   component: CNavItem,
-      //   name: 'Tài khoản & Phân cấp',
-      //   to: '/base/carousels',
-      // },
+      {
+        component: CNavItem,
+        name: 'Quản lý đơn hàng',
+        to: '/base/carousels',
+      },
     ],
   },
   {
